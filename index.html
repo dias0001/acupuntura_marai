@@ -18,7 +18,8 @@
 <body>
     <header>
         <!-- place navbar here -->
-        <nav class="navbar  navbar-dark fixed-top">
+        <!-- fixed-top -->
+        <nav class="navbar  navbar-dark ">
             <a class="navbar-brand ms-4 text-dark" href="#">Dra° Mariana Campos</a>
             <div class="nav-item" id="">
                 <ul class="nav justify-content-end">
@@ -35,40 +36,40 @@
             </div>
         </nav>
     </header>
-    <main>
+    <main class="container-fluid mt-5">
         <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="false">
             <div class="carousel-indicators text-dark aling">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active bg-dark"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" class="active bg-dark"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" class="active bg-dark"
-                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                    class="active bg-dark" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    class="active bg-dark" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    class="active bg-dark" aria-label="Slide 3"></button>
                 <!-- <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
                     aria-label="Slide 4"></button> -->
             </div>
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="img/mari3-3.jpg" class="rounded mx-auto d-block mt-4 rounded-pill"
+                <div class="carousel-item active ">
+                    <img src="img/mari3-3.jpg" class="rounded mx-auto d-block mt-4 rounded-pill img-carousel-intro"
                         alt="...">
                     <div class="carousel-caption d-none d-md-block">
                         <h5 class="text-dark">Medicina Tradicional Chinesa</h5>
-                        <p class="text-dark">Tratamento para dores físicas e emocionais</p>
+                        <p class="text-dark fw-light">Tratamento para dores físicas e emocionais</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="img/mari3.jpg" class="rounded mx-auto d-block mt-4 rounded-pill" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                         <h5 class="text-dark"></h5>
-                        <p class="text-dark"></p>
+                        <p class="text-dark fw-light"></p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/mari1-1.jpg"
-                        class="rounded mx-auto d-block mt-4 rounded-pill " alt="...">
+                    <img src="img/mari1-1.jpg" class="rounded mx-auto d-block mt-4 rounded-pill " alt="...">
                     <div class="carousel-caption d-none d-md-block">
                         <h5 class="text-dark">Auriculoterapia</h5>
-                        <p class="text-dark">A auriculoterapia tem sido importante aliada da medicina brasileira.</p>
+                        <p class="text-dark fw-light">A auriculoterapia tem sido importante aliada da medicina
+                            brasileira.</p>
                     </div>
                 </div>
             </div>
@@ -82,69 +83,89 @@
                 <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
                 <span class="visually-hidden bg-dark">Next</span>
             </button>
-        </div>        
+        </div>
 
-        <section class="d-flex m-5 justify-content-center ">
-            <div class="card mx-3 border border-3 border-dark" style="width: 18rem;">
-                <img src="img/2.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title text-center">Acupuntura</h5>
-                    <p class="card-text">Terapia fundamental da Medicina Tradicional Chinesa, busca através da inserção
-                        de pequenas agulhas no corpo proporcionar equilíbrio para o mesmo. Os pontos são localizados nos
-                        meridianos, canais originários dos órgãos e que percorrem todo o organismo. As agulhas estimulam
-                        as terminações nervosas, as quais irão enviar mensagens ao Sistema Nervoso Central para
-                        produção/liberação/ativação de hormônios/células. Tem como objetivo principal:
-                        bem-estar- relaxamento- analgesia.</p>
+        <section class="row my-4">
+            <div class="col-md-3" style="height:400px;">
+                <div class="card h-100">
+                    <img src="img/2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Acupuntura</h5>
+                        <p class="card-text fw-light">Terapia fundamental da Medicina Tradicional Chinesa, busca através
+                            da inserção
+                            de pequenas agulhas no corpo proporcionar equilíbrio para o mesmo. Os pontos são localizados
+                            nos
+                            meridianos, canais originários dos órgãos e que percorrem todo o organismo. As agulhas
+                            estimulam
+                            as terminações nervosas, as quais irão enviar mensagens ao Sistema Nervoso Central para
+                            produção/liberação/ativação de hormônios/células.</p>
+                    </div>
                 </div>
             </div>
-            <div class="card mx-3 border border-3 border-dark" style="width: 18rem;">
-                <img src="img/ventosssaaa.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title text-center">Ventosaterapia</h5>
-                    <p class="card-text">Faz parte da Medicina Tradicional Chinesa, é considerada uma terapia externa
-                        com potentes resultados internos. Através de recipientes que são colocados sob a pele é
-                        produzido um vácuo que primariamente seu efeito se dá na musculatura e fáscia, porém é capaz de
-                        melhorar a circulação sanguínea, ativar liberação de toxinas, aumentar a capacidade de
-                        regeneração de lesões musculares, entre outros benefícios.</p>
+
+            <div class="col-md-3">
+                <div class="card h-100">
+                    <img src="img/ventosssaaa.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Ventosaterapia</h5>
+                        <p class="card-text fw-light">Faz parte da Medicina Tradicional Chinesa, é considerada uma
+                            terapia externa
+                            com potentes resultados internos. Através de recipientes que são colocados sob a pele é
+                            produzido um vácuo que primariamente seu efeito se dá na musculatura e fáscia, porém é capaz
+                            de
+                            melhorar a circulação sanguínea, ativar liberação de toxinas, aumentar a capacidade de
+                            regeneração de lesões musculares, entre outros benefícios.</p>
+                    </div>
                 </div>
             </div>
-            <div class="card mx-3 border border-3 border-dark" style="width: 18rem;">
-                <img src="img/auriculoterapia222.webp" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title text-center">Auriculoterapia</h5>
-                    <p class="card-text">É uma terapia baseada na reflexologia auricular. São realizados estímulos em
-                        determinados pontos da orelha, os quais tem ligação direta com o Sistema Nervoso, pode ser feito
-                        com sementes de mostarda/cristais/esferas, não há necessidade da utilização de agulhas.</p>
+
+            <div class="col-md-3">
+                <div class="card h-100">
+                    <img src="img/auriculoterapia222.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Auriculoterapia</h5>
+                        <p class="card-text fw-light">É uma terapia baseada na reflexologia auricular. São realizados
+                            estímulos em
+                            determinados pontos da orelha, os quais tem ligação direta com o Sistema Nervoso, pode ser
+                            feito
+                            com sementes de mostarda/cristais/esferas, não há necessidade da utilização de agulhas.</p>
+                    </div>
                 </div>
             </div>
-            <div class="card mx-3 border border-3 border-dark" style="width: 18rem;">
-                <img src="img/5.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title text-center">Moxabustão</h5>
-                    <p class="card-text">A moxa é uma técnica terapêutica da Medicina Tradicional Chinesa. A moxa
-                        funciona quando umsurgiu em conjunto com a acupuntura. Utiliza-se a queima da Artemísia ( planta
-                        medicinal)que pode ser em forma de bastão ou lã aplicada. Essa terapia promove aquecimento dos
-                        pontos e do meridiano em si, gerando calor através de todo o canal. Muito útil em processos
-                        inflamatórios que pioram com o frio, exemplo: bursite, tendinite, capsulite adesiva, lombalgias
-                        e etc.</p>
+
+            <div class="col-md-3">
+                <div class="card h-100">
+                    <img src="img/5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Moxabustão</h5>
+                        <p class="card-text fw-light">A moxa é uma técnica terapêutica da Medicina Tradicional Chinesa.
+                            A moxa
+                            funciona quando umsurgiu em conjunto com a acupuntura. Utiliza-se a queima da Artemísia (
+                            planta
+                            medicinal)que pode ser em forma de bastão ou lã aplicada. Essa terapia promove aquecimento
+                            dos
+                            pontos e do meridiano em si, gerando calor através de todo o canal. Muito útil em processos
+                            inflamatórios que pioram com o frio, exemplo: bursite, tendinite, capsulite adesiva,
+                            lombalgias
+                            e etc.</p>
+                    </div>
                 </div>
             </div>
+
         </section>
 
-        <div class="clearfix">
-            <img src="img/mari3.jpg" class="col-md-2 float-md-end mb-3 ms-md-3 mx-5 border border-3 border-dark"
-                alt="...">
-
-            <h4 class="ms-4 text-center p-4 widht=500px height 350px row ">
-                <p>Aos 21 anos me formei em Fisioterapia pela Fundação Educacional de Fernandópolis (FEF-SP) uma das
-                    melhores faculdades localizada no noroeste paulista em 2008.</p>
-                <p>Logo após busquei me especializar e foi aí que optei pela Acupuntura, então em 2009 iniciei minha
+        <div class="d-md-flex justify-content-around">
+            <div class="col-md-5">
+                <p class="text-center fw-light">Aos 21 anos me formei em Fisioterapia pela Fundação Educacional de
+                    Fernandópolis (FEF-SP) uma das
+                    melhores faculdades localizada no noroeste paulista em 2008.
+                    Logo após busquei me especializar e foi aí que optei pela Acupuntura, então em 2009 iniciei minha
                     Pós-Graduação em Acupuntura na Escola de Terapias Orientais de São Paulo (ETOSP) que fica no bairro
                     da
-                    Liberdade em SP mesmo.</p>
-                <p>Logo após a conclusão ainda me sentia um pouco insegura para atender, mas como em qualquer atividade
-                    praticada durante a vida: nada melhor que o tempo para nos lapidar.</p>
-                <p>Então de 2011 pra cá busquei sempre me aprofundar nos estudos e fiz alguns cursos como:
+                    Liberdade em SP mesmo.
+                    Logo após a conclusão ainda me sentia um pouco insegura para atender, mas como em qualquer atividade
+                    praticada durante a vida: nada melhor que o tempo para nos lapidar.
+                    Então de 2011 pra cá busquei sempre me aprofundar nos estudos e fiz alguns cursos como:
                     Acupuntura do Mestre Tung
                     Acupuntura pelo Método Equilíbrio
                     Diagnóstico Integrado por Prof Fabricio Borges
@@ -157,12 +178,15 @@
                     Não há como separar corpo-mente
                     Não há como separar individuo da sociedade
                     O homem é um ser integral e qualquer que seja a terapia, ela deve ser INTEGRATIVA</p>
-                <p>Seja bem-vindo.</p>
-            </h4>
+                <p class="text-center">Seja bem-vindo.</p>
+            </div>
+            <figure class="col-md-5 mb-3 ms-md-3 mx-5">
+                <img src="img/mari3.jpg" class="w-100 border border-3 border-dark" alt="...">
+            </figure>
         </div>
 
 
-        <section class="conv widht=400px height=500px">
+        <section class="conv">
             <h2 class="text-center">Atendimento particular e pelos convênios:</h2>
             <div class="d-flex justify-content-center">
                 <img class="p-5" alt="..." src="img/images.png" alt="">
@@ -170,65 +194,83 @@
             </div>
         </section>
 
-        <section class="mt-5 mb-5">
-            <div class="row">
-              <div class="col-4">
-                <div class="card">
-                  <div class="card-body">
-                    <h3 class="card-title">Espaço de excelência
+        <section class="mt-5 mb-5 d-md-flex justify-content-around">
+            <!-- <div class="row"> -->
+            <!-- <div class="col-md-4"> -->
+            <div class="card col-md-3 mb-2">
+                <div class="card-body">
+                    <h3 class="card-title text-center"><i class="fa-solid fa-hand-holding-heart"></i> Espaço de excelência
                     </h3>
-                    <p class="card-text">Oferecemos um espaço pensado para o seu conforto. Seguimos todas as normas e boas práticas para oferecermos os nossos serviços com excelência em um ambiente ideal em São José dos Campos.
-                        
-                        </p>
-                  </div>
+                    <p class="card-text fw-light text-center">Oferecemos um espaço pensado para o seu conforto. Seguimos todas as
+                        normas e boas práticas para oferecermos os nossos serviços com excelência em um ambiente
+                        ideal em São José dos Campos.
+
+                    </p>
                 </div>
-              </div>
-              <div class="col-4">
-                <div class="card">
-                  <div class="card-body">                    
-                    <h3 class="card-title">Diversos serviços</h3>
-                    <p class="card-text">Oferecemos serviços variados, da medicina moderna à medicina tradicional. Tudo pensado para que o seu tratamento seja completo, eficiente e agradável. Conheça a nossa clinica de acupuntura.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-4">
-                <div class="card">
-                  <div class="card-body">
-                    <h3 class="card-title">Para que serve acupuntura em gestantes?</h3>
-                    <p class="card-text">Serve para aliviar os sintomas da gravidez, como dores de cabeça, cólicas, náuseas e até mesmo fadiga. Outra utilização dessa técnica durante a gestação é a preparação da gestante para o trabalho de parto.</p>
-                  </div>
-                </div>
-              </div>
             </div>
+            <!-- </div> -->
+            <!-- <div class="col-md-4"> -->
+            <div class="card col-md-3 mb-2">
+                <div class="card-body">
+                    <h3 class="card-title text-center"><i class="fa-solid fa-arrows-spin"></i> Diversos serviços</h3>
+                    <p class="card-text fw-light text-center">Oferecemos serviços variados, da medicina moderna à medicina
+                        tradicional. Tudo pensado para que o seu tratamento seja completo, eficiente e
+                        agradável. Conheça a nossa clinica de acupuntura.</p>
+                </div>
+            </div>
+            <!-- </div> -->
+            <!-- <div class="col-md-4"> -->
+            <div class="card col-md-3 mb-2">
+                <div class="card-body">
+                    <h3 class="card-title text-center"><i class="fa-sharp fa-solid fa-person-pregnant"></i> Para que serve
+                        acupuntura em gestantes?</h3>
+                    <p class="card-text fw-light text-center">Serve para aliviar os sintomas da gravidez, como dores de cabeça,
+                        cólicas, náuseas e até mesmo fadiga. Outra utilização dessa técnica durante a gestação é
+                        a preparação da gestante para o trabalho de parto.</p>
+                </div>
+            </div>
+            <!-- </div> -->
+            <!-- </div> -->
         </section>
 
 
     </main>
 
     <!-- place footer here -->
-    <footer class="p-5 widht=400px height=500px bg-dark">
-        <div
-            class="container text-center col-md-10 bg-cinza bg-4 altura-400px d-flex justify-content-evenly align-items-center">
+    <footer class="d-md-flex p-5 bg-dark">
+        <div class="container text-center col-md-10 bg-cinza d-flex justify-content-center">
             <div class="row">
-                <div class="col-6">
+                <div class="col-md-6 d-flex flex-column align-items-center">
                     <h3 class="text-light">Medicina Chinesa</h3>
-                    <p class="text-light">A Zhi Terapias busca divulgar e ofertar com excelência os tratamentos
+                    <p class="text-light col-6 fw-light">A Zhi Terapias busca divulgar e ofertar com excelência os
+                        tratamentos
                         milenares da medicina
                         tradicional chinesa, aliados a tratamentos convencionais. Buscamos o melhor diagnóstico e
                         tratamento para os nossos clientes, com bastante profissionalismo e cuidado.</p>
                 </div>
-                <div class="col-4">
-                    <i class="fa-solid fa-phone text-light"></i>
-                    <h6 class="text-light">Nossos Contatos</h6>
-                    <p class="text-justify text-light">(12)981966502</p>
-                    <i class="fa-brands fa-instagram text-light"></i>
-                    <p class="text-justify text-light">@acupuntura.maricampos</p>
-                    <i class="fa-brands fa-facebook text-light"></i>
-                    <p class="text-justify text-light">Mariana Campos</p>
+                <div class="col-5 d-flex flex-column align-items-center">
+                    <h6 class="text-light mb-4">Nossos Contatos</h6>
+                    <div class="col-4">
+
+                        <p class="text-justify text-light mb-3 fw-light"> <i
+                                class="fa-solid fa-phone text-light me-1"></i> (12)981966502</p>
+                    </div>
+
+                    <p class="text-justify text-light fw-light"><i class="fa-brands fa-facebook text-light me-1"></i>
+                        Mariana Campos</p>
+
+                    <p class="text-justify text-light mb-3 fw-light me-1"><i
+                            class="fa-brands fa-instagram text-light"></i> @acupuntura.maricampos</p>
                 </div>
             </div>
         </div>
     </footer>
+    <a class="whatzap" href="https://wa.me/+5512981966502?text=Adorei%20seu%20artigo!"
+    target="_blank" data-toggle="tooltip" data-placement="top" title="Fale conosco pelo Whatsapp" class="vibrate-1">
+        <i style="margin-top: 10px" class="fa-2x fa fa-whatsapp"></i>
+    </a>
+
+    <a href="#" id="go-top" class="seta-topo"><i class="fas fa-arrow-up"></i></a>
 
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
@@ -238,6 +280,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
         integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
         </script>
+
+    <script src="js/custom.js"></script>
+
 </body>
 
 </html>

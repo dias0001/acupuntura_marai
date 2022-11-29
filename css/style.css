@@ -2,6 +2,10 @@ body {
     background-color: #d2f7e9;
 }
 
+li {
+  list-style: none;
+}
+
 .card-body, .navbar {
     background-color: #88f3ca;
 }

@@ -39,6 +39,17 @@ body {
     transition: background-color 0.5s;
   }
 
+  /* terceira seção */
+  .text {
+    margin-top: 100px;
+  }
+
+  /* quarta seçaõ */
+
+  .imagem {
+    margin-left: 300px;
+  }
+
   /* SIMBOLO DO WhatsApp */
   .fa-whatsapp{
     margin-top: 4px;
@@ -60,4 +71,33 @@ body {
         width: 632px !important;
     }
   }
+
+
+  /* xs */
+ 
+
+
+  /* sm >=576px */
+  @media (min-width: 576px) {
+    .cards-1 {
+      
+    }
+  }
+  
+  /* md >= 768px */
+  @media (min-width: 768px) {
+    .cards-1 {
+      
+    }
+  }
+
+  /* lg >= 992px */
+  @media (min-width: 992px) {
+    .cards-1 {
+      
+    }
+  }
+
+
+
   

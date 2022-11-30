@@ -10,19 +10,42 @@ li {
     background-color: #88f3ca;
 }
 
-.whatzap{
-    position: fixed;
+.logo_png {
+  height: 20px;
+  width: 20px;
+}
+
+.WhatsApp{    
     width: 50px;
-    height: 50px;
-    bottom: 40px;
-    left: 10px;
-    background-color: #25d366;
+    height: 50px;    
+    background-color: #3ef806;
     color: #fff;
     border-radius: 50px;
     text-align: center;
     font-size: 10px;
-    box-shadow: 1px 1px 2px #888;
-    z-index: 1000;
+}
+
+.instagram{
+  width: 50px;
+  height: 50px;  
+  background-color: #f5c012;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 10px;  
+}
+
+.tamanho-icone {
+  font-size: 2rem;
+}
+
+.icon-hover {
+  color: white;
+  background: #ff940f;
+}
+
+.icon-hover:hover {
+  color: blue;
 }
 
 .seta-topo{
@@ -30,7 +53,7 @@ li {
     position: fixed;
     opacity: .3;
     bottom: 10px;
-    right: 500px;
+    right: 10px;
     width: 50px;
     height: 50px;
     padding: 5px;

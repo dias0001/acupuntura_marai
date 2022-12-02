@@ -1,5 +1,5 @@
 body {
-    background-color: #d2f7e9;
+    background-color: #e8ebea;
 }
 
 li {
@@ -7,12 +7,15 @@ li {
 }
 
 .card-body, .navbar {
-    background-color: #88f3ca;
+    background-color: #f1fdfd;
 }
 
 .logo_png {
   height: 20px;
   width: 20px;
+}
+
+.card {
 }
 
 .WhatsApp{    
@@ -27,7 +30,7 @@ li {
 .instagram{
   width: 50px;
   height: 50px;
-  color: #fff;
+  color: rgb(12, 11, 11);
   border-radius: 50px;
   text-align: center;
   font-size: 10px;  

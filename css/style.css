@@ -67,20 +67,16 @@ li {
     transition: background-color 0.5s;
   }
 
-  /* terceira seção */
+  /* primeira seção */
   .text {
-    margin-top: 100px;
+    margin-top: 40px;
   }
 
-  /* quarta seçaõ */
-
-  .imagem {
-    margin-left: 300px;
-  }
+ 
 
   /* SIMBOLO DO WhatsApp */
   .fa-whatsapp{
-    margin-top: 4px;
+    margin-top: 11px;
     font-size: 10px;
   }
 

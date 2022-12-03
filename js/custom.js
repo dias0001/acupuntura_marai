@@ -18,6 +18,3 @@ bthamburguer.addEventListener('click', function(){
   navphone.style.display = 'block'
 })
 
-btfechahamb.addEventListener('click' , function(){
-  navphone.style.display = 'none'
-} )

@@ -14,7 +14,5 @@ const rolagem = ()=> {
   //window.addEventListener('scroll', rolagem)
 window.onscroll = ()=> rolagem()//evento somente para elem q existem no html
 
-bthamburguer.addEventListener('click', function(){
-  navphone.style.display = 'block'
-})
+
 

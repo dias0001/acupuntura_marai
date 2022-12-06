@@ -10,9 +10,19 @@ const rolagem = ()=> {
       seta.style.display = 'none'
     }
   }
-
   //window.addEventListener('scroll', rolagem)
 window.onscroll = ()=> rolagem()//evento somente para elem q existem no html
+
+
+const fechaMenu = ()=> {
+  var offcanvas_el = document.getElementById('offcanvasNavbar')
+  var offcanvas = new bootstrap.Offcanvas(offcanvas_el)
+
+  offcanvas.hide()
+}
+
+//inicializada animações scrool do AOS
+AOS.init();
 
 
 

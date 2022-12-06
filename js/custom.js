@@ -14,12 +14,24 @@ const rolagem = ()=> {
 window.onscroll = ()=> rolagem()//evento somente para elem q existem no html
 
 
-const fechaMenu = ()=> {
-  var offcanvas_el = document.getElementById('offcanvasNavbar')
-  var offcanvas = new bootstrap.Offcanvas(offcanvas_el)
+// const fechaMenu = ()=> {
+//   var offcanvas_el = document.getElementById('offcanvasNavbar')
+//   var offcanvas = new bootstrap.Offcanvas(offcanvas_el)
 
-  offcanvas.hide()
-}
+//   offcanvas.hide()
+// }
+
+/* fechamento do menu, mas está quebrando */
+
+// const nav = document.getElementById('offcanvasNavbar')
+// const teste = document.getElementById('teste')
+
+// teste.addEventListener('click', () => {
+//   nav.style.display = 'none'
+//   const efeito = document.getElementsByClassName('offcanvas-backdrop')
+//   efeito[0].style.display = 'none'
+// })
+
 
 //inicializada animações scrool do AOS
 AOS.init();

@@ -1,12 +1,22 @@
 body {
-    font-family: 'Open Sans', sans-serif;
-    background-image: url(../img/rafacampos1.jpeg);
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../img/simbolo_01.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 li {
   list-style: none;
+}
+
+/* texto da 1° parte drª Mariana */
+.text-size {
+  font-size: 1.3rem;
+}
+
+/* fonte dos parágrafos (tratamentos,  */
+.fonte {
+  font-weight: 500;
 }
 
 .card-body, .navbar {
@@ -22,7 +32,6 @@ li {
 .tira-barra-x {
   overflow-x: hidden;
 }
-
 
 
 .WhatsApp{    

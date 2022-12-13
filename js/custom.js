@@ -23,14 +23,14 @@ window.onscroll = ()=> rolagem()//evento somente para elem q existem no html
 
 /* fechamento do menu, mas está quebrando */
 
-const nav = document.getElementById('offcanvasNavbar')
-const teste = document.getElementById('teste')
+// const nav = document.getElementById('offcanvasNavbar')
+// const teste = document.getElementById('teste')
 
-teste.addEventListener('click', () => {
-  nav.style.display = 'none'
-  const efeito = document.getElementsByClassName('offcanvas-backdrop')
-  efeito[0].style.display = 'none'
-})
+// teste.addEventListener('click', () => {
+//   nav.style.display = 'none'
+//   const efeito = document.getElementsByClassName('offcanvas-backdrop')
+//   efeito[0].style.display = 'none'
+// })
 
 
 //inicializada animações scrool do AOS
